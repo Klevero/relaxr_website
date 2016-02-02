@@ -1,0 +1,194 @@
+/*
+Project Name: Relaxr Landing Page
+Author: Kandice Levero
+Front End Developer @GA in NYC
+*/
+
+/* Box Model Hack */
+
+/* --- Test Purpose -- */
+div{
+	/*border: red thin solid;*/
+}
+
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+#header {
+    background-image: url(../images/header_bg.jpg);
+    height: 700px;
+}
+
+h1 {
+	color: white;
+	font-size: 48px;
+	font-weight: 800;
+	font-family: 'Open Sans', sans-serif;
+	padding: 50px 100px 50px 75px;
+	/*I could not get the top margin to work properly, so I used padding, but WHY!?*/
+	
+}
+
+h2 {
+	display:block;
+    margin: 0 auto;
+    color: white;
+    font-size: 48px;
+    font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.centered {
+	/*this is how I centered the image*/
+    display:block;
+    margin: 0 auto;
+}
+
+.page_width {
+	width: 1200px;
+}
+
+.yellow_button{
+	height: 50px;
+	width: 240px;
+	border-radius: 5px;
+	background-color: #f9e42e;
+	padding: 10px;
+	font-size: 28px;
+	font-weight: 800;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+/*BENEFITS SECTION*/
+/*BENEFITS SECTION*/
+/*BENEFITS SECTION*/
+
+#benefits {
+	padding: 20px 0px 40px 100px;
+}
+
+h3 {
+	color: #033048;
+    font-size: 40px;
+    font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#benefits_p {
+	width: 650px;
+	color: #606161;
+    font-size: 26px;
+    font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 36px;
+	padding-bottom: 40px;
+}
+
+ul {
+	font-size: 26px;
+	color: #606161;
+	font-weight: 300;
+	width: 500px;
+	font-family: 'Open Sans', sans-serif;
+	list-style: disc inside;
+	line-height: 36px;
+}
+
+/*WAVES SECTION*/
+/*WAVES SECTION*/
+/*WAVES SECTION*/
+
+#waves {
+    background-image: url(../images/testimonial_bg.jpg);
+    height: 394px;
+}
+
+.yellow_bar {
+	height: 100px;
+	background-color: #f9e42e;
+	padding-top: 25px;
+}
+
+.blue_button {
+	height: 50px;
+	width: 270px;
+	border-radius: 5px;
+	background-color: #033048;
+	padding: 11px;
+	font-size: 24px;
+	font-weight: 800;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+
+}
+
+/*FOOTER*/
+/*FOOTER*/
+/*FOOTER*/
+
+.black_box {
+	height: 300px;
+	background-color: black;
+}
+
+.yellow_logo {
+	font-size: 48px;
+	font-weight: 800;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	padding-top: 50px;
+	
+}
+
+.social_media {
+	width: 150px;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.social_icon {
+	display: inline-block;
+	padding: 0px 10px;
+}
+
+#copyright {
+	font-size: 18px;
+	font-weight: 600;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	padding: 50px 0px;
+}
+
+#testimony {
+	width: 500px;
+	font-size: 30px;
+	font-weight: 300;
+	font-style: italic;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	padding-top: 80px;
+	line-height: 36px;
+
+}
+/*In the above situation only font-style:italic would work.  
+Inline <i> would not work with a Google font and writing "italic" 
+after 300 as some sites suggested also did not work*/
+
+#amanda {
+	font-size: 36px;
+	font-weight: 600;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	padding: 50px 0px;
+}
