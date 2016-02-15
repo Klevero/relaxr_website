@@ -102,27 +102,26 @@ nav ul li {
 /*MAIN BODY*/
 .main {
   width: 1200px;
-  height: 1800px;
+  
   background-color: #f0efef;
 }
 
 .content {
   width: 700px;
-  height: 1680px;
+  
   /*border: 1px solid black;*/
   margin: 120px 20px 50px 120px;
 }
 
 aside {
   width: 240px;
-  height: 1680px;
+  
   /*border: 1px solid black;*/
   margin: 120px 120px 50px 0px;
 }
 
 .post {
   width: 700px;
-  height: 750px;
   /*border: 1px solid black;*/
   margin-bottom: 50px;
 }
@@ -158,12 +157,13 @@ p {
   margin: 0px;
 }
 
-.read_more {
+.more_less {
   font-size: 24px;
   font-weight: 600;
   font-family: 'Open Sans', sans-serif;
   color: #033048;
   margin: 30px 0px 30px 0px;
+  cursor:pointer;
 }
 
 .underline {
@@ -200,7 +200,7 @@ p {
 }
 
 .about {
-  height: 300px;
+  
   margin: 0px 0px 50px 0px;
   /*border: 1px solid red;*/
 }
@@ -221,6 +221,7 @@ p {
   font-weight: 600;
   font-family: 'Open Sans', sans-serif;
   margin: 0px;
+  cursor:pointer;
 }
 
 /*YELLOW BAR*/
@@ -237,13 +238,17 @@ p {
 .blue_button {
   height: 50px;
   width: 270px;
+  color: white;
   border-radius: 5px;
   background-color: #033048;
-  padding: 11px;
+  margin-top: 2px;
+  padding-top: 20px;
   font-size: 24px;
   font-weight: 800;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
+  cursor:pointer;
+
 }
 
 /*FOOTER*/
